@@ -4,9 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c738c4e-cf57-4631-a48d-e82bfaaf3a00" name="Changes" comment="Factory Method and Builder">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Singleton/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Singleton/TestSingleton.java" afterDir="false" />
+    <list default="true" id="2c738c4e-cf57-4631-a48d-e82bfaaf3a00" name="Changes" comment="Singleton multithread">
+      <change afterPath="$PROJECT_DIR$/src/main/java/AbstractFactory/Armor/Armor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AbstractFactory/Armor/HeavyArmor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AbstractFactory/Armor/Robe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AbstractFactory/Enemy/Enemy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AbstractFactory/Enemy/Warrior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AbstractFactory/Enemy/Wizard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AbstractFactory/Factory/EnemyAbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AbstractFactory/Factory/WarriorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AbstractFactory/Factory/WizardFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AbstractFactory/TestAbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AbstractFactory/Weapon/Axe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AbstractFactory/Weapon/Weapon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AbstractFactory/Weapon/WizardStaff.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +49,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.TestAbstractFactory.executor": "Run",
     "Application.TestBuilder.executor": "Run",
     "Application.TestFactory.executor": "Run",
     "Application.TestFactoryMethod.executor": "Run",
@@ -101,7 +113,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707804358247</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Singleton multithread">
+      <option name="closed" value="true" />
+      <created>1707812433652</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707812433652</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -132,7 +152,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Factory Method and Builder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Factory Method and Builder" />
+    <MESSAGE value="Singleton multithread" />
+    <option name="LAST_COMMIT_MESSAGE" value="Singleton multithread" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
