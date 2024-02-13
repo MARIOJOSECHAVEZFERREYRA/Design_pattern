@@ -5,33 +5,101 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c738c4e-cf57-4631-a48d-e82bfaaf3a00" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Builder/Enemy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Builder/EnemyBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Builder/TestBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FactoryMethod/Enemy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FactoryMethod/EnemyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FactoryMethod/TestFactoryMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FactoryMethod/Warrior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FactoryMethod/WarriorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FactoryMethod/Wizard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FactoryMethod/WizardFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Factory/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/EnemyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Factory/EnemyFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/TestFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Factory/TestFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Factory/Warrior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/WarriorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Factory/WarriorFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Factory/Wizard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/WizardFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Factory/WizardFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2cEHew9qkeOANgoiFJuoM07OQKS" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.TestBuilder.executor": "Run",
+    "Application.TestFactory.executor": "Run",
+    "Application.TestFactoryMethod.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="TestFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Factory.TestFactory" />
+      <module name="Design_pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestFactoryMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FactoryMethod.TestFactoryMethod" />
+      <module name="Design_pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FactoryMethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestFactoryMethod" />
+        <item itemvalue="Application.TestFactory" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -42,5 +110,46 @@
       <updated>1707669919265</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Design_pattern$TestFactoryMethod.ic" NAME="TestFactoryMethod Coverage Results" MODIFIED="1707745231020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>FactoryMethod.*</FILTER>
+    </SUITE>
   </component>
 </project>

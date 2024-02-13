@@ -1,8 +1,8 @@
-package Factory;
+package FactoryMethod;
 
 public class WarriorFactory extends EnemyFactory {
     @Override
-    public Enemy createEnemy(String type) {
+    public Enemy createEnemy() {
         return new Warrior();
     }
 }
