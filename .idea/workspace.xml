@@ -4,12 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c738c4e-cf57-4631-a48d-e82bfaaf3a00" name="Changes" comment="Proxy">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Adapter/Enemy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Adapter/Warrior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Adapter/Wizard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Adapter/Zombie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Adapter/ZombieAdapter.java" afterDir="false" />
+    <list default="true" id="2c738c4e-cf57-4631-a48d-e82bfaaf3a00" name="Changes" comment="Adapter">
+      <change afterPath="$PROJECT_DIR$/src/main/java/AbstractClassAndMethod/AnotherExampleClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AbstractClassAndMethod/ExampleClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AbstractClassAndMethod/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Brigde/Enemy/Enemy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Brigde/Enemy/Warrior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Brigde/Enemy/Wizard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Brigde/Fighter/Fighter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Brigde/Fighter/WarriorFighterImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Brigde/Fighter/WizardFighterImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Brigde/TestBrigde.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +46,9 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.TestAbstractFactory.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestAdapter.executor&quot;: &quot;Run&quot;,
     &quot;Application.TestBuilder.executor&quot;: &quot;Run&quot;,
     &quot;Application.TestFactory.executor&quot;: &quot;Run&quot;,
     &quot;Application.TestFactoryMethod.executor&quot;: &quot;Run&quot;,
@@ -130,7 +137,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708000004321</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Adapter">
+      <option name="closed" value="true" />
+      <created>1708008094117</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708008094117</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -164,7 +179,8 @@
     <MESSAGE value="Singleton multithread" />
     <MESSAGE value="Abstract Factory" />
     <MESSAGE value="Proxy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Proxy" />
+    <MESSAGE value="Adapter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adapter" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
