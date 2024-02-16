@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c738c4e-cf57-4631-a48d-e82bfaaf3a00" name="Changes" comment="Adapter">
-      <change afterPath="$PROJECT_DIR$/src/main/java/AbstractClassAndMethod/AnotherExampleClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AbstractClassAndMethod/ExampleClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AbstractClassAndMethod/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Brigde/Enemy/Enemy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Brigde/Enemy/Warrior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Brigde/Enemy/Wizard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Brigde/Fighter/Fighter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Brigde/Fighter/WarriorFighterImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Brigde/Fighter/WizardFighterImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Brigde/TestBrigde.java" afterDir="false" />
+    <list default="true" id="2c738c4e-cf57-4631-a48d-e82bfaaf3a00" name="Changes" comment="Brigde">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Iterator/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Iterator/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Iterator/ItemIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Iterator/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Iterator/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Iterator/TestIterator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,24 +40,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestAbstractFactory.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestAdapter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestBuilder.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestFactory.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestFactoryMethod.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestProxy.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestSingleton.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.TestAbstractFactory.executor": "Run",
+    "Application.TestAdapter.executor": "Run",
+    "Application.TestBrigde.executor": "Run",
+    "Application.TestBuilder.executor": "Run",
+    "Application.TestFactory.executor": "Run",
+    "Application.TestFactoryMethod.executor": "Run",
+    "Application.TestIterator.executor": "Run",
+    "Application.TestProxy.executor": "Run",
+    "Application.TestSingleton.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "vcs.Git"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="TestFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Factory.TestFactory" />
@@ -145,7 +143,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708008094117</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Brigde">
+      <option name="closed" value="true" />
+      <created>1708065716850</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1708065716850</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -180,7 +186,8 @@
     <MESSAGE value="Abstract Factory" />
     <MESSAGE value="Proxy" />
     <MESSAGE value="Adapter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adapter" />
+    <MESSAGE value="Brigde" />
+    <option name="LAST_COMMIT_MESSAGE" value="Brigde" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
