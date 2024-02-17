@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c738c4e-cf57-4631-a48d-e82bfaaf3a00" name="Changes" comment="Brigde">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Iterator/Inventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Iterator/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Iterator/ItemIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Iterator/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Iterator/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Iterator/TestIterator.java" afterDir="false" />
+    <list default="true" id="2c738c4e-cf57-4631-a48d-e82bfaaf3a00" name="Changes" comment="Iterator">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ChainResponsibility/ElectricAttack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ChainResponsibility/ElementaryAttack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ChainResponsibility/FireAttack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ChainResponsibility/IceAttack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ChainResponsibility/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ChainResponsibility/TestChainResponsiblity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ChainResponsibility/TypePlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ChainResponsibility/Wizard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Enums/Dia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Enums/TestEnums.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +26,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -47,6 +52,8 @@
     "Application.TestAdapter.executor": "Run",
     "Application.TestBrigde.executor": "Run",
     "Application.TestBuilder.executor": "Run",
+    "Application.TestChainResponsiblity.executor": "Run",
+    "Application.TestEnums.executor": "Run",
     "Application.TestFactory.executor": "Run",
     "Application.TestFactoryMethod.executor": "Run",
     "Application.TestIterator.executor": "Run",
@@ -151,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708065716850</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Iterator">
+      <option name="closed" value="true" />
+      <created>1708070597417</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1708070597417</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -187,7 +202,8 @@
     <MESSAGE value="Proxy" />
     <MESSAGE value="Adapter" />
     <MESSAGE value="Brigde" />
-    <option name="LAST_COMMIT_MESSAGE" value="Brigde" />
+    <MESSAGE value="Iterator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Iterator" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
