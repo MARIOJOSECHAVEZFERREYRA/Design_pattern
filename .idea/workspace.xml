@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c738c4e-cf57-4631-a48d-e82bfaaf3a00" name="Changes" comment="Iterator">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ChainResponsibility/ElectricAttack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ChainResponsibility/ElementaryAttack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ChainResponsibility/FireAttack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ChainResponsibility/IceAttack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ChainResponsibility/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ChainResponsibility/TestChainResponsiblity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ChainResponsibility/TypePlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ChainResponsibility/Wizard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Enums/Dia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Enums/TestEnums.java" afterDir="false" />
+    <list default="true" id="2c738c4e-cf57-4631-a48d-e82bfaaf3a00" name="Changes" comment="CHAIN RESPONSIBILITY">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Strategy/AdvancedAntivirus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Strategy/AdvancedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Strategy/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Strategy/IStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Strategy/SimpleAntivirus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Strategy/SimpleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,14 +22,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/Strategy/SimpleTest.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -45,28 +45,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Application.TestAbstractFactory.executor": "Run",
-    "Application.TestAdapter.executor": "Run",
-    "Application.TestBrigde.executor": "Run",
-    "Application.TestBuilder.executor": "Run",
-    "Application.TestChainResponsiblity.executor": "Run",
-    "Application.TestEnums.executor": "Run",
-    "Application.TestFactory.executor": "Run",
-    "Application.TestFactoryMethod.executor": "Run",
-    "Application.TestIterator.executor": "Run",
-    "Application.TestProxy.executor": "Run",
-    "Application.TestSingleton.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "vcs.Git"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestAbstractFactory.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestAdapter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestBrigde.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestBuilder.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestChainResponsiblity.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestEnums.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestFactory.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestFactoryMethod.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestIterator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestProxy.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestSingleton.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="TestFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Factory.TestFactory" />
@@ -166,7 +166,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708070597417</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="CHAIN RESPONSIBILITY">
+      <option name="closed" value="true" />
+      <created>1708163439373</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1708163439373</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -203,7 +211,8 @@
     <MESSAGE value="Adapter" />
     <MESSAGE value="Brigde" />
     <MESSAGE value="Iterator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Iterator" />
+    <MESSAGE value="CHAIN RESPONSIBILITY" />
+    <option name="LAST_COMMIT_MESSAGE" value="CHAIN RESPONSIBILITY" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
